@@ -1,0 +1,156 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+   
+}
+/* Navigation Bar Styles */
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+li {
+    display: inline-block; 
+    padding-left: 15px;
+}
+
+li a{
+    text-decoration: none;
+    color: #000;
+}
+nav div li a:hover{
+    text-decoration-line: underline;
+}
+
+#sign-in{
+    background-color: rgb(66, 133, 244);
+    border: 1px solid rgb(66, 133, 244);
+    border-radius: 3px;
+    padding: 10px 15px;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+#sign-in a{
+    color: #fff;
+    font-weight: bold;
+}
+
+.float-right {
+    float: right;
+    padding-right: 30px;
+}
+
+.float-left {
+    float: left;
+}
+
+.navbar {
+    overflow: hidden;
+}
+
+
+/* Logo Styles */
+.logo{
+    display:block;
+    margin: auto;
+    padding-top:110px;
+}
+/* Searchbar */
+
+.searchbar {
+    display: block;
+    margin: 20px auto;
+    padding: 0 50px;
+    border-radius: 20px;
+    opacity: 0.3;
+}
+
+/* Search bar text area  */
+form input{
+    width: 300px;
+    height: 30px;
+}
+
+/* Using flex to center buttons  */
+.buttons {
+    display: flex;
+    justify-content: center; 
+}
+/* Button values retreived from inspecting homepage  */
+.btn-1 {
+    border-radius: 4px;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height:36px;
+    min-width: 54px;
+    text-align:center;
+    background-color: #f2f2f2;
+    color:#5F6368;
+    border:1px solid rgb(242,242,242);
+}
+
+.btn-2 {
+    border-radius: 4px;
+    border:1px solid rgb(242,242,242);
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height:36px;
+    min-width: 54px;
+    text-align:center;
+    background-color:#f2f2f2;
+    color:#5F6368;
+}
+/* Hover effect for button -values from devtools */
+
+.btn-1:hover {
+    border:1px solid rgb(198,198,198);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color:#222;
+}
+
+.btn-2:hover {
+    border:1px solid rgb(198,198,198);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color:#222;
+}
+
+/* footer styles  */
+#footer {
+    border-top: 1px solid #dfe1e5;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+
+.btm-nav-right {
+    float: right;
+    padding-right: 30px;
+}
+
+.btm-nav-left {
+    float: left;
+}
+
+footer div li a {
+   color: #5F6368;
+}
+
+footer div li a:hover {
+    text-decoration-line: underline;
+}
