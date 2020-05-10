@@ -22,6 +22,7 @@ li {
 li a{
     text-decoration: none;
     color: #000;
+    font-size:13px;
 }
 nav div li a:hover{
     text-decoration-line: underline;
@@ -31,9 +32,10 @@ nav div li a:hover{
     background-color: rgb(66, 133, 244);
     border: 1px solid rgb(66, 133, 244);
     border-radius: 3px;
-    padding: 10px 15px;
+    padding: 8px 8px 25px 8px;
     margin-right: 10px;
     font-size: 13px;
+    height: 25px;
 }
 
 #sign-in a{
@@ -48,6 +50,8 @@ nav div li a:hover{
 
 .float-left {
     float: left;
+    padding-top:10px;
+    
 }
 
 .navbar {
@@ -59,22 +63,27 @@ nav div li a:hover{
 .logo{
     display:block;
     margin: auto;
-    padding-top:110px;
+    padding:50px 0 50px 0;
+
 }
 /* Searchbar */
 
 .searchbar {
     display: block;
     margin: 20px auto;
-    padding: 0 50px;
+    padding: 0 50px 0 15px;
+    opacity: .3;
+    font-size: medium;
     border-radius: 20px;
-    opacity: 0.3;
 }
 
 /* Search bar text area  */
 form input{
-    width: 300px;
-    height: 30px;
+    width: 500px;
+    height: 40px;
+    border-color: grey;
+    border-width: 1px;
+    
 }
 
 /* Using flex to center buttons  */
@@ -123,7 +132,20 @@ form input{
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
     color:#222;
 }
-
+/* paragraph styling*/
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    
+}
+p a{
+    text-decoration: none;
+    color: navy;
+}
+p a:hover{
+    text-decoration: underline;
+}
 /* footer styles  */
 #footer {
     border-top: 1px solid #dfe1e5;
